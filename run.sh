@@ -70,7 +70,7 @@ else
 fi
 
 REPO_URL="https://github.com/Lifantel/qrgen.git"
-CLONE_DIR="$HOME/qrgen"
+CLONE_DIR="$(pwd)/qrgen"
 
 if [ -d "$CLONE_DIR/.git" ]; then
     info "Repo guncelleniyor..."
