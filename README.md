@@ -1,4 +1,4 @@
-# Çalıştırmak
+# Çalıştırma
 ```bash
 chmod +x run.sh
 ```
