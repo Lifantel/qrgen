@@ -1,10 +1,8 @@
-
 #ifndef QRGEN_H
 #define QRGEN_H
-
 #include <qrencode.h>
-
 #ifdef __cplusplus
+
 extern "C" {
 #endif
 typedef enum {
@@ -17,10 +15,7 @@ typedef enum {
 QRcode *qrgen_encode(const char *text, QRecLevel level);
 void qrgen_free(QRcode *qr);
 int qrgen_save_png(const QRcode *qr, const char *path, int scale, int margin);
-
-
 int qrgen_save_jpg(const QRcode *qr, const char *path, int scale, int margin, int quality);
-
 #ifdef __cplusplus
 }
 #endif
